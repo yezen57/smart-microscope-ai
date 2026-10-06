@@ -116,11 +116,12 @@ code/models/*.keras
 *.mkv
 file/*.mp4
 
-# Sensitive Internal / Client Documents & Reference Textbooks
-file/معلومات العميل/
-file/مراجع/
-file/الدوكمنت/New folder/
-*جديد.docx
+# Sensitive Internal / Client Documents, Presentation & Reports
+file/
+*الدوكمنت*
+*.docx
+*.pptx
+*.pdf
 labelImg-master/
 كولاب/
 kaggle.json

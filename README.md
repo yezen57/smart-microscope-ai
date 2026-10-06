@@ -148,10 +148,6 @@ microscope_ai/
 |   `-- models/                 # Model weights directory
 |       |-- best.pt             # Trained YOLO weights for WBC detection (lightweight)
 |       `-- yolo11n.pt          # Base YOLO11n checkpoint
-|
-`-- file/                       # Project specifications and system engineering reports
-    |-- SRS.pdf                 # Software Requirements Specification (SRS)
-    `-- Smart Digital Microscopic System.pdf # Comprehensive technical presentation
 ```
 
 ---
