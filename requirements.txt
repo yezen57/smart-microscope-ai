@@ -1,0 +1,23 @@
+# Core Computer Vision & Machine Learning
+tensorflow>=2.10.0
+ultralytics>=8.2.0
+opencv-python>=4.8.0
+numpy>=1.22.0
+pillow>=9.5.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Graphical User Interface
+PyQt6>=6.6.0
+
+# Visualization & Reporting
+plotly>=5.18.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data Utilities & Pipelines
+tqdm>=4.66.0
+pyyaml>=6.0.0
+
+# Optional Hardware Interface (Raspberry Pi Picamera2)
+# picamera2>=0.3.0; sys_platform == 'linux'

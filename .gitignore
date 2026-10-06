@@ -1,0 +1,131 @@
+# ==============================================================================
+# Git Ignore Configuration - Smart Digital Microscopic System
+# ==============================================================================
+
+# Operating System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE Artefacts
+.history/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+node_modules/
+
+# Python Bytecode & Packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Credentials & Sensitive Secrets
+kaggle.json
+*/kaggle.json
+*.env
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*.pfx
+
+# Large Archive Files (> 100MB / Redundant zips)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Backup Folders & Duplicates
+*نسخة*
+‏‏code - نسخة/
+‏‏code - نسخة (2)/
+
+# Raw Datasets & Image Dumps (Exceeded Git limits)
+datasat/
+datasat*/
+*datasat*/
+*dataset*/
+code/datasat orginal/
+augmented_samples/
+delet/
+
+# YOLO & Model Training Artifacts / Runs
+runs/
+code/runs/
+code/preproc_logs/
+eda_summary.csv
+code/eda_summary.csv
+code/شرح/
+
+# Large Binary Model Weights (> 25MB)
+*.h5
+*.keras
+best_efficientnet_model.h5
+code/models/*.keras
+كولاب/*.keras
+
+# Large Media Files (> 100MB hard limit on GitHub)
+*.mp4
+*.avi
+*.mov
+*.mkv
+file/*.mp4
+
+# Sensitive Internal / Client Documents & Reference Textbooks
+file/معلومات العميل/
+file/مراجع/
+file/الدوكمنت/New folder/
+*جديد.docx
+labelImg-master/
+كولاب/
+kaggle.json
+*/kaggle.json
+
+# Temporary / Generated HTML outputs
+*.html
+!templates/*.html

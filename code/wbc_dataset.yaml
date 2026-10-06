@@ -1,0 +1,5 @@
+path: d:\projects\My jop\microscope_ai\code\datasat orginal
+train: d:\projects\My jop\microscope_ai\code\datasat orginal\images\Train
+val: d:\projects\My jop\microscope_ai\code\datasat orginal\images\Validate
+names:
+  0: WBC
