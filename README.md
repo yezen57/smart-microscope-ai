@@ -43,6 +43,12 @@ The classification pipeline distinguishes 11 morphological classes of peripheral
   <p><em>Figure 1: Morphological reference samples illustrating the 11 classified white blood cell categories.</em></p>
 </div>
 
+### Dataset Source & Benchmark
+The neural architectures are trained and benchmarked on the large-scale **Blood Cells Dataset (11 Classes, 26,534 Images)**:
+- **Dataset Source**: [Blood Cells Dataset (11 Classes, 26,534 Images) on Kaggle](https://www.kaggle.com/datasets/mohamadabouali1/blood-cells-dataset-11-classes-26534-images)
+- **Dataset Scale**: 26,534 annotated microscopic blood smear images distributed across 11 morphological cell types.
+- **Kaggle CLI Download**: `kaggle datasets download -d mohamadabouali1/blood-cells-dataset-11-classes-26534-images`
+
 ### Dataset Distribution & Analysis
 To ensure robust model generalization, the dataset is systematically analyzed and partitioned across morphological categories:
 
@@ -189,6 +195,13 @@ pip install -r requirements.txt
 Ensure model weights are located in `code/models/`:
 - `code/models/best.pt`: YOLO detection model weights.
 - `code/models/best_modelt.keras`: EfficientNetB3 classification model weights.
+
+### Step 5: Download Training Dataset (Optional for Retraining)
+To download the complete benchmark dataset (26,534 images) via the Kaggle CLI:
+```bash
+kaggle datasets download -d mohamadabouali1/blood-cells-dataset-11-classes-26534-images --unzip -p datasat
+```
+Or download directly through the web interface: [Blood Cells Dataset on Kaggle](https://www.kaggle.com/datasets/mohamadabouali1/blood-cells-dataset-11-classes-26534-images).
 
 ---
 
